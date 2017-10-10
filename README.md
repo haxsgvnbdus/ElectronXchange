@@ -1,2 +1,2 @@
 # OOElectronXchange
-An application where local customers can exchange electronic products.
+A web application where local customers can exchange electronic products.
