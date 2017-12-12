@@ -1,0 +1,9 @@
+USE storeapi;
+
+INSERT INTO product (id, active, category, description, in_stock_number, list_price, manufacturer, our_price, shipping_weight, title) 
+VALUES 
+(1, b'1', 'Laptop', 'Acer Aspire E5-575-33BM comes with these high level specs: 7th Generation Intel Core i3-7100U Processor (2.4GHz, 3MB L3 cache), Windows 10 Home, 15.6" Full HD Widescreen LED-backlit Display, Intel HD Graphics 620, 4GB DDR4 Memory, 1TB SATA Hard Drive', 25, 750,'Acer',699,5.27,'Acer Aspire E 15 E5-575-33BM'),
+(2,b'1','Monitor', 'Monitor: 21.5-inch diagonal Full HD (1920x1080) IPS; Enjoy vibrant images with 178-degree wide-viewing angles. Resolution and aspect ratio: Full HD and 16:9; 2 million pixels for crystal-clear visuals and vibrant image quality. Response time: 7ms with', 50, 100, '
+Hewlett-Packard', 89.99,11.45, 'HP Pavilion 21.5-Inch IPS LED HDMI VGA Monitor'),
+(3,b'1', 'Table', 'Beautiful 7" IPS display with higher contrast and sharper text, a 1.3 GHz quad-core processor, and up to 8 hours of battery life. 8 or 16 GB of internal storage and a microSD slot for up to 256 GB of expandable storage. Now with Alexa, for quick access to the information and entertainment you want. Ask questions, play music, check your calendar, get the news, weather, and more - just press the home button and ask.', 75,59.99, 'Amazon', 49.99, 2.11, 'All-New Fire 7 Tablet with Alexa, 7" Display, 8 GB, Black - with Special Offers'),
+(4, b'1', 'Amplifier', 'Uses the Alexa Voice Service when connected to Wi-Fi or a mobile hotspot to play music, read the news, provide weather reports, and even order a pizza', 120, 139.99, 'Amazon', 129.99, 5.67, 'Amazon Tap - Alexa-Enabled Portable Bluetooth Speaker');
